@@ -14,7 +14,7 @@ def game(get_quiz, rule):
         if correct_answer == user_answer:
             print('Correct!')
         else:
-            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+            print("'{}' is wrong answer ;(. Correct answer was '{}'.".format(user_answer, correct_answer))
             print("Let's try again, " + name + "!")
             return
     print('Congratulations, ' + name + '!')

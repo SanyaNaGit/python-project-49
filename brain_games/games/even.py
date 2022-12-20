@@ -1,7 +1,6 @@
 from random import randint
 from brain_games.general_logic import game
 
-
 rule = 'Answer "yes" if number even otherwise answer "no".'
 
 
