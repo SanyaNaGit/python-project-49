@@ -17,7 +17,7 @@ def game(get_quiz, rule):
             print(
                 "'{}' is wrong answer ;(. Correct answer was '{}'.".format(
                     user_answer, correct_answer
-                 )
+                )
             )
             print("Let's try again, " + name + "!")
             return
