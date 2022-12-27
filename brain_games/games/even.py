@@ -1,7 +1,7 @@
 from random import randint
 from brain_games.general_logic import game
 
-rule = 'Answer "yes" if number even otherwise answer "no".'
+rule = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def even_number(number):
