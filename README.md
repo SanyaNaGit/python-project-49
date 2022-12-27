@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/SanyaNaGit/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/088fb928cecd52b58bd4/maintainability" /></a>
 
-Игры разума
+#  Игры разума
 
 Установка игр:
 1) git clone https://github.com/Nikolaytk87/python-project-lvl1.git
@@ -15,12 +15,13 @@
 2) В случае, если пользователь даст неверный ответ, игра завершится.
 3) Любой некорректный ввод считается ошибкой (например, n) и равносилен неправильному ответу.
 
-Игра: "Проверка на чётность"\n
+##  Игра: "Проверка на чётность"
+
 Пользователю показывается случайное число. Нужно ответить yes, если число чётное, или no — если нечётное.
+
 Запустить игру можно из консоли, набрав команду brain-even.
 
 <script src="https://asciinema.org/a/iQJpLKf0zo3jYy74cAAEPlwoE" id="asciicast-14" async></script>
-
 
 Игра: "Калькулятор"
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
