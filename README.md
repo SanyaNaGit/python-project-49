@@ -6,7 +6,7 @@
 #  Игры разума
 
 ###  Установка игр:
-1) git clone https://github.com/Nikolaytk87/python-project-lvl1.git
+1) git clone https://github.com/SanyaNaGit/python-project-49
 2) make install
 3) make package-install
 
@@ -18,9 +18,9 @@
 ##  Игра: "Проверка на чётность"
 
 Пользователю показывается случайное число. Нужно ответить yes, если число чётное, или no — если нечётное.
-Запуcтить игру можно из консоли, набрав команду ###brain-even###.
+Запуcтить игру можно из консоли, набрав команду brain-even.
 
-<a href="https://asciinema.org/a/iQJpLKf0zo3jYy74cAAEPlwoE"><img src="https://asciinema.org/a/iQJpLKf0zo3jYy74cAAEPlwoE" width="800" height="450" /></a>
+<a href="https://asciinema.org/a/iQJpLKf0zo3jYy74cAAEPlwoE"><img src="https://asciinema.org/a/iQJpLKf0zo3jYy74cAAEPlwoE.svg" width="800" height="450" /></a>
 
 Игра: "Калькулятор"
 Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
