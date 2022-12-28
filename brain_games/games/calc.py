@@ -1,7 +1,7 @@
 from random import choice, choices
 from brain_games.general_logic import game
 
-rule = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def get_quiz():
@@ -23,4 +23,4 @@ def get_quiz():
 
 
 def run_game():
-    game(get_quiz, rule)
+    game(get_quiz, RULE)

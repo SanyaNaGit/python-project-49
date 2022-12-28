@@ -1,8 +1,7 @@
 from random import choices
 from brain_games.general_logic import game
 
-
-rule = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def get_gcd(num1, num2):
@@ -22,4 +21,4 @@ def get_quiz():
 
 
 def run_game():
-    game(get_quiz, rule)
+    game(get_quiz, RULE)

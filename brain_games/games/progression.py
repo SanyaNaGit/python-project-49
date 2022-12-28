@@ -15,7 +15,7 @@ def get_progression(start, step, PROGRESSION_LENGTH):
 def get_quiz():
     start = randint(1, 100)
     step = randint(1, 10)
-    miss_item_index = randint(1, progression_length - 1)
+    miss_item_index = randint(1, PROGRESSION_LENGTH - 1)
     progression = get_progression(start, step, PROGRESSION_LENGTH)
     answer = progression.pop(miss_item_index)
     progression.insert(miss_item_index, "..")
@@ -24,4 +24,4 @@ def get_quiz():
 
 
 def run_game():
-    game(get_quiz, rule)
+    game(get_quiz, RULE)

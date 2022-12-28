@@ -1,7 +1,7 @@
 from random import randrange
 from brain_games.general_logic import game
 
-rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
@@ -21,4 +21,4 @@ def get_quiz():
 
 
 def run_game():
-    game(get_quiz, rule)
+    game(get_quiz, RULE)
