@@ -17,8 +17,8 @@ def get_quiz():
     step = randint(1, 10)
     random_index = randint(1, PROGRESSION_LENGTH - 1)
     progression = get_progression(start, step, PROGRESSION_LENGTH)
-    answer = progression.pop(random_index)
-    progression.insert(random_index, "..")
+    answer = progression[random_index]
+    progression[random_index] = '..'
     question = " ".join([str(i) for i in progression])
     return question, str(answer)
 
