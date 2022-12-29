@@ -15,10 +15,10 @@ def get_progression(start, step, PROGRESSION_LENGTH):
 def get_quiz():
     start = randint(1, 100)
     step = randint(1, 10)
-    miss_item_index = randint(1, PROGRESSION_LENGTH - 1)
+    random_index = randint(1, PROGRESSION_LENGTH - 1)
     progression = get_progression(start, step, PROGRESSION_LENGTH)
-    answer = progression.pop(miss_item_index)
-    progression.insert(miss_item_index, "..")
+    answer = progression.pop(random_index)
+    progression.insert(random_index, "..")
     question = " ".join([str(i) for i in progression])
     return question, str(answer)
 
