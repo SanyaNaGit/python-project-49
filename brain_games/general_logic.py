@@ -3,7 +3,7 @@ import prompt
 ROUNDS_COUNT = 3
 
 
-def game(get_quiz, RULE):
+def run_game(get_quiz, RULE):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')

@@ -1,8 +1,9 @@
-from brain_games.games import even
+from brain_games.games.even import get_quiz, RULE
+from brain_games.general_logic import run_game
 
 
 def main():
-    even.run_game()
+    run_game(get_quiz, RULE)
 
 
 if __name__ == '__main__':

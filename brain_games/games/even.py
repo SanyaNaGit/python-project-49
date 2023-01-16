@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.general_logic import game
 
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -12,7 +11,3 @@ def get_quiz():
     question = randint(0, 100)
     answer = "yes" if even_number(question) else "no"
     return question, answer
-
-
-def run_game():
-    game(get_quiz, RULE)
